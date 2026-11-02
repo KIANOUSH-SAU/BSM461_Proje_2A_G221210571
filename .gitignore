@@ -1,0 +1,26 @@
+# Ham / üretilen veri — depoya konmaz; README'deki --grup komutuyla yeniden üretilir
+data/
+*.jsonl
+*.parquet
+_delta_log/
+checkpoint*/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Ortam ve sırlar
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistem
+.DS_Store
+Thumbs.db
+*.log
+!kanit/*.log
