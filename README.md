@@ -1,4 +1,4 @@
-# BSM461_Proje_2A_<grupkodu> — IoT Sensör İzleme ve Anomali Tespit Sistemi
+# BSM461_Proje_2A_G221210571 — IoT Sensör İzleme ve Anomali Tespit Sistemi
 
 > ⚠️ **Taslak.** Bu README, kurulum adımları gerçekten denenip doğrulandıkça doldurulur. Aşağıdaki komutlar yönergeden alınmıştır; `kit/README.md` geldiğinde gerçek hâliyle güncellenecek.
 
@@ -7,7 +7,7 @@ BSM 461 Büyük Veriye Giriş (2026–2027 Güz) dönem projesi — **Şablon 3:
 
 | | |
 |---|---|
-| Grup kodu | `<grupkodu>` *(üç üyenin öğrenci numarasından en küçüğü)* |
+| Grup kodu | `G221210571` |
 | Şube | `2A` |
 | Üyeler | `<ad soyad — no>` × 3 |
 | Teslim commit'i | `git rev-parse teslim` → *(teslimde yazılacak)* |
@@ -28,8 +28,8 @@ BSM 461 Büyük Veriye Giriş (2026–2027 Güz) dönem projesi — **Şablon 3:
 Gereksinim: Docker Desktop, Docker'a ≥ 5 GB bellek.
 
 ```bash
-git clone https://github.com/<kullanici>/BSM461_Proje_2A_<grupkodu>.git
-cd BSM461_Proje_2A_<grupkodu>/kit
+git clone https://github.com/KIANOUSH-SAU/BSM461_Proje_2A_G221210571.git
+cd BSM461_Proje_2A_G221210571/kit
 
 docker compose up -d
 ./dogrula.sh --tam                       # Windows PowerShell: aşağıdaki iki komut
@@ -37,11 +37,11 @@ docker compose up -d
 # docker compose exec spark spark-submit is/dogrula_spark.py
 
 # Toplu veri (aynı grup kodu → aynı veri)
-docker compose exec araclar python araclar/uretici.py --grup <grupkodu> --sablon iot --toplu
+docker compose exec araclar python araclar/uretici.py --grup G221210571 --sablon iot --toplu
 docker compose exec spark spark-submit is/toplu_is.py --sablon iot
 
 # Akış
-docker compose exec araclar python araclar/uretici.py --grup <grupkodu> --sablon iot --hiz 5
+docker compose exec araclar python araclar/uretici.py --grup G221210571 --sablon iot --hiz 5
 docker compose exec spark spark-submit is/akis_iskelet.py --sablon iot
 
 # Servis deposu (MongoDB)

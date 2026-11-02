@@ -9,15 +9,15 @@
 
 ## Bekleyen — engelleyici
 - [x] Şube: **2A**
-- [ ] **Grup kodu** (üç üyenin öğrenci numarasından en küçüğü) → depo adı `BSM461_Proje_<şube>_<grupkodu>`
+- [x] Grup kodu: **G221210571** → depo `BSM461_Proje_2A_G221210571`
 - [ ] Diğer iki üyeyi collaborator ekle (Kianoush yapacak)
 - [ ] Hocanın **`kit/` başlangıç arşivi** (SABIS / ders sayfası) → `kit/` içine
 - [ ] **Docker Desktop** kurulumu (bu makinede yok); Docker'a ≥ 5 GB bellek
 
 ## Sırada (engeller kalkınca)
-1. GitHub'da public depoyu aç, üyeleri ekle, bu iskeleti gönder
+1. ~~GitHub public depo + iskelet~~ ✅ — üyeleri collaborator ekle (Kianoush)
 2. `kit/`'i depoya koy, `docker compose up -d`, `dogrula.sh --tam` → `kanit/ortam.png`
-3. `senaryo.py --grup <kod> --sablon iot` → `kanit/senaryo.txt`
+3. `senaryo.py --grup G221210571 --sablon iot` → `kanit/senaryo.txt`
 4. Üreticiyi kısa çalıştır → veri sözlüğü, dört kusurdan birer örnek, olay kimliği / tekrar ayıklama stratejisi
 5. Z1 hesabı, Z0 ilk taslak (bkz. `docs/mimari/taslak.md`)
 

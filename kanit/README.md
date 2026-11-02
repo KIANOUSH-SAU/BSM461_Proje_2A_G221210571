@@ -3,7 +3,7 @@
 | Dosya | Ne | Adım |
 |---|---|---|
 | `ortam.png` | `dogrula.sh --tam` çıktısının ekran görüntüsü | 2 |
-| `senaryo.txt` | `senaryo.py --grup <kod> --sablon iot` çıktısı | 3 |
+| `senaryo.txt` | `senaryo.py --grup G221210571 --sablon iot` çıktısı | 3 |
 | `olcumler.csv` | Bütün ölçümler — ne, kaç kez, sonuç, birim | 4–14 |
 | `explain-*.txt` | `explain(mode="formatted")` çıktıları | 8 |
 | `spark-ui-*.png` | Spark UI: aşamalar, görev süresi dağılımı | 8 |
