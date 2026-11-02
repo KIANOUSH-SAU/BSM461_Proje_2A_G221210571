@@ -1,4 +1,4 @@
-# BSM461_Proje_<şube>_<grupkodu> — IoT Sensör İzleme ve Anomali Tespit Sistemi
+# BSM461_Proje_2A_<grupkodu> — IoT Sensör İzleme ve Anomali Tespit Sistemi
 
 > ⚠️ **Taslak.** Bu README, kurulum adımları gerçekten denenip doğrulandıkça doldurulur. Aşağıdaki komutlar yönergeden alınmıştır; `kit/README.md` geldiğinde gerçek hâliyle güncellenecek.
 
@@ -8,7 +8,7 @@ BSM 461 Büyük Veriye Giriş (2026–2027 Güz) dönem projesi — **Şablon 3:
 | | |
 |---|---|
 | Grup kodu | `<grupkodu>` *(üç üyenin öğrenci numarasından en küçüğü)* |
-| Şube | `<şube>` |
+| Şube | `2A` |
 | Üyeler | `<ad soyad — no>` × 3 |
 | Teslim commit'i | `git rev-parse teslim` → *(teslimde yazılacak)* |
 
@@ -28,8 +28,8 @@ BSM 461 Büyük Veriye Giriş (2026–2027 Güz) dönem projesi — **Şablon 3:
 Gereksinim: Docker Desktop, Docker'a ≥ 5 GB bellek.
 
 ```bash
-git clone https://github.com/<kullanici>/BSM461_Proje_<şube>_<grupkodu>.git
-cd BSM461_Proje_<şube>_<grupkodu>/kit
+git clone https://github.com/<kullanici>/BSM461_Proje_2A_<grupkodu>.git
+cd BSM461_Proje_2A_<grupkodu>/kit
 
 docker compose up -d
 ./dogrula.sh --tam                       # Windows PowerShell: aşağıdaki iki komut

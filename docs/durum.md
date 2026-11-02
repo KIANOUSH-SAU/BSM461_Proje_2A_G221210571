@@ -8,8 +8,9 @@
 - [x] Yerel depo iskeleti: README taslağı, `.gitignore`, `kanit/olcumler.csv` başlığı, planlama belgeleri
 
 ## Bekleyen — engelleyici
-- [ ] **Şube** ve **grup kodu** (üç üyenin öğrenci numarasından en küçüğü) → depo adı `BSM461_Proje_<şube>_<grupkodu>`
-- [ ] Diğer iki üyenin **GitHub kullanıcı adları** (collaborator eklemek için)
+- [x] Şube: **2A**
+- [ ] **Grup kodu** (üç üyenin öğrenci numarasından en küçüğü) → depo adı `BSM461_Proje_<şube>_<grupkodu>`
+- [ ] Diğer iki üyeyi collaborator ekle (Kianoush yapacak)
 - [ ] Hocanın **`kit/` başlangıç arşivi** (SABIS / ders sayfası) → `kit/` içine
 - [ ] **Docker Desktop** kurulumu (bu makinede yok); Docker'a ≥ 5 GB bellek
 

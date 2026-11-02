@@ -5,7 +5,7 @@ Sakarya Üniversitesi, BSM 461 Büyük Veriye Giriş, 2026–2027 Güz, Dr. Öğ
 
 ## Resmî kaynak
 - Yönerge: `~/Downloads/Proje-Odevi (1).pdf` (27 sayfa). Çelişkide yönerge ve gerçek `kit/` önceliklidir.
-- Teslim: **11 Aralık 2026 Cuma 23.59**, tek teslim. Public repo `BSM461_Proje_<şube>_<grupkodu>`, `teslim` git etiketi teslimden önce.
+- Teslim: **11 Aralık 2026 Cuma 23.59**, tek teslim. Public repo `BSM461_Proje_2A_<grupkodu>`, `teslim` git etiketi teslimden önce.
 - Notun en büyük kalemi Z11 (kırılma) = 20/100; Z5 ve Z8 = 10'ar.
 
 ## Kesin kurallar
